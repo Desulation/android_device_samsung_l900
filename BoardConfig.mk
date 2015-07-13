@@ -23,6 +23,27 @@
 # GPS
 BOARD_GPS_SET_PRIVACY := true
 
+# LZMA Compression
+#WITH_LZMA_OTA := true
+
+# BlissPop Configs
+BLISS_WIPE_CACHES := 1
+TARGET_TC_ROM := 4.8
+TARGET_TC_KERNEL := 4.8
+BLISSIFY := true
+BLISS_O3 := true
+BLISS_STRICT := false
+BLISS_GRAPHITE := true
+BLISS_KRAIT := false
+BLISS_PIPE := true
+FLOOP_NEST_OPTIMIZE := true
+ENABLE_GCCONLY := true
+TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+
+#SaberMod
+-include vendor/bliss/config/sm.mk
+
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/l900/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
