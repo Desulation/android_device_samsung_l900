@@ -24,7 +24,7 @@
 BOARD_GPS_SET_PRIVACY := true
 
 # LZMA Compression
-#WITH_LZMA_OTA := true
+WITH_LZMA_OTA := true
 
 # BlissPop Configs
 BLISS_WIPE_CACHES := 1
