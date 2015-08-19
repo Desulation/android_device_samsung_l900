@@ -1,6 +1,3 @@
-#Bliss Viper Audio Mod
-BLISS_AUDIO_MOD := viper
-
 # Release name
 PRODUCT_RELEASE_NAME := l900
 
