@@ -28,7 +28,7 @@ WITH_LZMA_OTA := true
 
 # BlissPop Configs
 BLISS_WIPE_CACHES := 1
-TARGET_TC_ROM := 5.1-linaro
+TARGET_TC_ROM := 5.2-linaro
 TARGET_TC_KERNEL := 4.8
 BLISSIFY := true
 BLISS_O3 := true
