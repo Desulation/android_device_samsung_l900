@@ -1,0 +1,38 @@
+[
+    {
+        "remote": "vrtoxin-dev",
+        "repository": "android_device_samsung_smdk4412-common",
+        "target_path": "device/samsung/smdk4412-common",
+        "revision": "mm6.0"
+    },
+    {
+        "remote": "vrtoxin-dev",
+        "repository": "android_device_samsung_smdk4412-qcom-common",
+        "target_path": "device/samsung/smdk4412-qcom-common",
+        "revision": "mm6.0"
+    },
+    {
+        "remote": "vrtoxin-dev",
+        "repository": "android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412",
+        "revision": "mm6.0"
+    },
+    {
+        "remote": "vrtoxin-dev",
+        "repository": "android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "revision": "mm6.0"
+    },
+    {
+        "remote": "cm",
+        "repository": "android_external_sony_boringssl-compat",
+        "target_path": "external/sony/boringssl-compat",
+        "revision": "cm-13.0"
+    },
+    {
+        "remote": "cm",
+        "repository": "android_external_stlport",
+        "target_path": "external/stlport",
+        "revision": "cm-13.0"
+    }
+]
